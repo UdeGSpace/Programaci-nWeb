@@ -5,7 +5,7 @@
         <table align="center" width="280" cellspacing="1" cellpadding="3" border="0" bgcolor="#1E679A"> 
             <tr> 
             <td><font color="#FFFFFF" face="arial, verdana, helvetica"> 
-            <b>Actividad 10. Eliminar filas con JS </b> 
+            <b>Proyecto Final</b> 
             </font></td> 
             </tr> 
             <tr> 
@@ -16,91 +16,5 @@
             </td> 
             </tr> 
             </table> 
-        </head>
-        <script src="jquery-3.3.1.min.js">
-        </script>
-        <table border="2" align="center" id="Table1">
-            <tr>
-                <td COLSPAN=3 align="center">Redes Sociales</td>
-            </tr>
-            <tr id="GoogleRow">
-                <th>
-                    <a href="https://www.google.com/?client=safari" title="Buscador" target="_blank">
-                        <img src="./asserts/google.png" alt="Logo Google"
-                        width="150" height="100"/>
-                    </a>
-                </th>
-                <th>
-                    <p><br>https://www.google.com</p>
-                </th>
-                <th width="150" height="100">
-                    <button name="googleDel"  class="delRow">Delete</button>
-                </th>
-            </tr>
-            <tr id="FaceRow">
-                <th>
-                    <a href="https://www.facebook.com" title="Facebook" target="_blank">
-                        <img src="./asserts/facebook.jpg" alt="Logo Facebook"
-                        width="150" height="100"/>
-                    </a>
-                </th>
-                <th>
-                    <p><br>https://www.facebook.com</p>
-                </th>
-                <th width="150" height="100">
-                    <button name="faceDel" class="delRow">Delete</button>
-                </th>
-            </tr>
-            <tr id="GitRow">
-                <th>
-                    <a href="https://github.com" title="Git" target="_blank">
-                        <img src="./asserts/git.png" alt="Logo Git"
-                        width="150" height="100"/>
-                    </a>
-                </th>
-                <th>
-                    <p><br>https://github.com</p>
-                </th>
-                <th width="150" height="100">
-                    <button name="gitDel" class="delRow">Delete</button>
-                </th>
-            </tr>
-            <tr id="InstaRow">
-                <th>
-                    <a href="https://www.instagram.com" title="Instagram" target="_blank">
-                        <img src="./asserts/instagram.png" alt="Logo Insta"
-                        width="150" height="100"/>
-                    </a>
-                </th>
-                <th>
-                    <p><br>https://www.instagram.com</p>
-                </th>
-                <th width="150" height="100">
-                    <button name="intsDel" class="delRow">Delete</button>
-                </th>
-            </tr>
-            <tr id="YouRow">
-                <th>
-                    <a href="https://www.youtube.com" title="Youtube" target="_blank">
-                        <img src="./asserts/you.webp" alt="Logo Youtube"
-                        width="150" height="100"/>
-                    </a>
-                </th>
-                <th>
-                    <p><br>https://www.youtube.com</p>
-                </th>
-                <th width="150" height="100">
-                    <button name="youDel" class="delRow">Delete</button>
-                </th>
-            </tr>
-            <script>
-
-                $("#Table1").on('click','.delRow',function(){
-                    let text = 'Seguro que quieres eliminarl a fila?';
-                    if(confirm(text)==true){
-                        $(this).closest('tr').remove();
-                    }
-                });
-            </script>
-        </table>
+    </head>
 </html>
